@@ -1,3 +1,5 @@
+import ROUTES from "./routes";
+
 export const sidebarLinks = [
   {
     imgURL: "/icons/home.svg",
@@ -33,5 +35,20 @@ export const sidebarLinks = [
     imgURL: "/icons/question.svg",
     route: "/ask-question",
     label: "Ask a question",
+  },
+];
+
+export const sidebarSessionButtons = [
+  {
+    imgURL: "/icons/home.svg",
+    label: "Log In",
+    route: ROUTES.SIGN_IN,
+    class: "primary-text-gradient",
+  },
+  {
+    imgURL: "/icons/home.svg",
+    label: "Sign Up",
+    route: ROUTES.SIGN_UP,
+    class: "",
   },
 ];
